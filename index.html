@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="scoreKeeper">
+                    <h1 class="scoreNumber" id="homeScore">0</h1>
+                </div>
+                <div>
+                    <button onclick="addHome1()">+1</button>
+                    <button onclick="addHome2()">+2</button>
+                    <button onclick="addHome3()">+3</button>
+                </div>
+                <div>
+                    <button onclick="subtractHome1()">-1</button>
+                    <button onclick="subtractHome2()">-2</button>
+                    <button onclick="subtractHome3()">-3</button>
+                </div>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <div class="scoreKeeper">
+                    <h1 class="scoreNumber" id="awayScore">0</h1>
+                </div>
+                <div>
+                    <button onclick="addAway1()">+1</button>
+                    <button onclick="addAway2()">+2</button>
+                    <button onclick="addAway3()">+3</button>
+                </div>
+                <div>
+                    <button onclick="subtractAway1()">-1</button>
+                    <button onclick="subtractAway2()">-2</button>
+                    <button onclick="subtractAway3()">-3</button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button onclick="reset()" id="resetButton">RESET SCORES</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
