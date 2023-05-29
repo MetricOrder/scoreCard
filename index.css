@@ -4,7 +4,7 @@ body {
     text-align: center;
     margin: 0 auto;
     background-color: #1B244A;
-    color: #EEEEEE;
+    color: #F94F6D;
 }
 
 h1{
@@ -21,7 +21,7 @@ font-size: 40px;
 }
 
 .scoreKeeper {
-    color: F94F6D;
+    color: #F94F6D;
     text-align: center;
     background-color: black;
     border-radius: 10px;
